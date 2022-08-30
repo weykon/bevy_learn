@@ -4,7 +4,7 @@ use bevy::prelude::*;
 struct Name(String);
 
 #[derive(Component)]
-struct Person;
+pub struct Person;
 
 pub fn add_people(mut commands: Commands){
     commands.spawn().insert(Person).insert(Name("Elaina Proctor".to_string()));
