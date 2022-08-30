@@ -1,4 +1,5 @@
-use crate::system::add_people::Person;
+use my_bevy_game::system::add_people::Person;
+
 struct GreetTimer(Timer);
 pub fn greet_people(
     time: Res<Time>,
