@@ -1,3 +1,3 @@
-pub fn hello_system (){
+pub fn defalut (){
     println!("Hello System!");
 }
